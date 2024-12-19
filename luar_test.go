@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/alohawu/gopher-lua"
 )
 
 func Test_luar_complex128(t *testing.T) {
@@ -282,7 +282,6 @@ func Test_interface(t *testing.T) {
 				t.Fatalf("expected conversion of %#v = %#v (%T), got %#v (%T)\n", cur.Code, cur.Expected, cur.Expected, out, out)
 			}
 		}()
-
 	}
 }
 
@@ -302,8 +301,7 @@ func Test_tostringfallback(t *testing.T) {
 	L := lua.NewState()
 	defer L.Close()
 
-	type Struct struct {
-	}
+	type Struct struct{}
 	var out string
 
 	L.SetGlobal("struct", New(L, &Struct{}))

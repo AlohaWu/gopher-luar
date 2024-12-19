@@ -3,7 +3,7 @@ package luar
 import (
 	"reflect"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/alohawu/gopher-lua"
 )
 
 func checkType(L *lua.LState, idx int) reflect.Type {

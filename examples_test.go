@@ -1,7 +1,7 @@
 package luar
 
 import (
-	"github.com/yuin/gopher-lua"
+	"github.com/alohawu/gopher-lua"
 )
 
 func ExampleLState() {

@@ -2,10 +2,10 @@ package luar
 
 import (
 	"reflect"
+	"strings"
 	"testing"
 
-	"github.com/yuin/gopher-lua"
-	"strings"
+	"github.com/alohawu/gopher-lua"
 )
 
 func Test_config(t *testing.T) {

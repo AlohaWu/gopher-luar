@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/alohawu/gopher-lua"
 )
 
 type StructTestPerson struct {

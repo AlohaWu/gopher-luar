@@ -3,8 +3,8 @@ package luar_test
 import (
 	"fmt"
 
-	"github.com/yuin/gopher-lua"
-	"layeh.com/gopher-luar"
+	"github.com/alohawu/gopher-lua"
+	"github.com/alohawu/gopher-luar"
 )
 
 type User struct {

@@ -3,7 +3,7 @@ package luar
 import (
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/alohawu/gopher-lua"
 )
 
 func Test_struct(t *testing.T) {
@@ -134,8 +134,7 @@ type NestedPointer struct {
 	B NestedPointerChild
 }
 
-type NestedPointerChild struct {
-}
+type NestedPointerChild struct{}
 
 func (*NestedPointerChild) Test() string {
 	return "Pointer test"
